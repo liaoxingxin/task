@@ -1,0 +1,41 @@
+.box{
+	width: 97%;
+	min-width: 440px;
+	min-height: 450px;
+	padding: 20px;
+	background-color: #eee;
+	border:1px solid #999;
+}
+.box_left{
+	width: 200px;
+	height: 120px;
+	border:1px solid #999;
+}
+.box_left,
+.box_left-photo,
+.box_left-title{
+	float: left;
+}
+.box_left-title{
+	padding-top: 20px;
+}
+.box_left img{
+	padding: 20px;
+	width: 80px;
+}
+.box_right{
+	width: 120px;
+	border:1px solid #999;
+	float: right;
+}
+.box_center{
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 20px;
+	border:1px solid #999;
+	font-size: 14px;
+}
+.box_center span{
+	font-size: 18px;
+	font-weight: bold;
+}
