@@ -709,7 +709,68 @@ table{border-collapse:collapse;}
 	background-color: #f4f5f6;
 	border-radius: 5px 5px 0 0;
 }
+.title-Sma{
+	font-size: 12px;
+	color: #c3c2c2;
+	display: inline-block;
+}
+.title-Big{
+	font-size: 12px;
+	color: #535353;
+}
 
+.section_right-6_describe,
+.section_right-6_price,
+.section_right-6_title{
+	margin-left: 35px;
+	padding-left: 15px;
+}
+.section_right-6_title{
+	margin-top: 10px;
+	margin-right: 35px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c1c1c1;
+}
+.section_right-6_price{
+	border-right: 1px solid #c1c1c1;
+	padding-right: 45px;
+}
+.section_right-6_people{
+	margin-left: 15px;
+}
+.section_right-6_describe{
+	border-top: 1px solid #c1c1c1;
+}
+.section_right-6_secret{
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: 90px;
+	padding-top: 10px;
+	border-top: 1px solid #c1c1c1;
+}
+.secret-select{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	background-color: #d5d5d5;
+	position: relative;
+	top:2px;
+}
+.secret-select::before{
+	content: url(../img/task-9/secret-select.png);
+	position: absolute;
+	left:2px;
+	top:-6px;
+}
+.secret-button{
+	width: 50px;
+	height: 26px;
+	margin-left: 134px;
+	border-radius: 3px;
+	border: none;
+	background-color: #388ac1;
+	color: #fff;
+}
 
 .section_right-7{
 	width: 350px;
@@ -730,6 +791,63 @@ table{border-collapse:collapse;}
 	background-color: #f4f5f6;
 	border-radius: 5px 5px 0 0;
 }
+.date-week{
+	text-align: center;
+	margin: 0 20px 0 22px;
+	padding:5px 0;
+	border-bottom: 2px solid #ccc;
+}
+.date-week span{
+	display: inline-block;
+	margin: 0 13px;
+	font-size: 12px;
+
+}
+.dateFour{
+	padding: 10px 20px;
+}
+.date_style{
+	width: 100%;
+	border-collapse: unset;
+}
+.section_right-7_date{
+	padding: 10px 0;
+	margin:0 20px 0 22px;
+	border-bottom: 2px solid #a9cfec;
+}
+.section_right-7 .col{
+	color: #c9161d;
+}
+.section_right-7 .date_style{
+	font-size: 11px;
+	color: #323333;
+}
+.section_right-7 .date_style tr{
+	margin-top: 5px;
+}
+.section_right-7 .date_style td{
+	text-align: center;
+	padding: 4px 2px;
+}
+.section_right-7 .date_style td.date_active,
+.section_right-7 .date_style td:hover {
+	border:1px solid #f8d564;
+	padding: 1px;
+}
+/*
+.date_active, .section_right-7 .date_style td:hover{
+	border:1px solid #f8d564;
+	padding: 1px;
+}
+*/
+/*.section_right-7 .date_active{
+	border:1px solid #f8d564;
+}*/
+
+
+
+
+
 
 
 .section_right-8{
@@ -743,11 +861,26 @@ table{border-collapse:collapse;}
 	box-shadow: 1px 1px 1px #dddee0;
 	position: relative;
 }
-.section_right-8_text{
-	font-size: 12px;
+.section_right-8_text{	font-size: 12px;
 	color: #aaa;
 	padding:15px 20px;
 	border-bottom: 1px solid #c1c1c1;
 	background-color: #f4f5f6;
 	border-radius: 5px 5px 0 0;
+}
+.section_right-8 .tab_style{
+	width: 450px;
+	height: 276px;
+	text-align: center;
+	color: #535353;
+	font-size: 12px;
+	margin: 15px 40px;
+	background-color: #fff;
+}
+.section_right-8 .tab_style td{
+	border: 1px solid #c1c1c1;
+	cursor: pointer;
+}
+.section_right-8 .tab_style tr:hover{
+	background-color: #f4f5f6;
 }
